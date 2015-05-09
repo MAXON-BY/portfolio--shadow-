@@ -1,0 +1,157 @@
+/* line 5, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.button {
+  background: #ff941a;
+  border-radius: 3px; }
+
+/* line 11, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+body {
+  font-family: "LatoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialised; }
+
+/* line 20, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+a {
+  color: #fff; }
+  /* line 22, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  a:hover {
+    text-decoration: none;
+    color: #dddddd; }
+  /* line 25, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  a:active {
+    text-decoration: none;
+    color: #eeeeee; }
+
+/* line 29, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+header {
+  min-height: 500px !important;
+  background-image: url("../img/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+
+/* line 36, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.top_line {
+  margin-top: 10px; }
+
+/* line 39, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+nav {
+  float: right;
+  margin-top: 15px; }
+
+/* line 43, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+nav ul li {
+  list-style: none;
+  float: left;
+  margin: 0 10px; }
+
+/* line 48, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+header p {
+  text-align: center;
+  font-family: LatoRegular, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 140px;
+  text-shadow: 0 1px #000;
+  color: #fff; }
+
+/* line 57, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+section {
+  padding: 80px 0 100px 0; }
+
+/* line 61, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.services img {
+  padding-top: 35px;
+  float: right; }
+/* line 64, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.services a {
+  padding: 8px 15px; }
+/* line 66, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.services h2 {
+  color: #333333;
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px; }
+/* line 71, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.services p {
+  font-size: 14px;
+  font-family: LatoRegular, sans-serif;
+  color: #333333;
+  margin-bottom: 20px; }
+/* line 76, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.services ul {
+  padding-left: 17px; }
+  /* line 78, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  .services ul li {
+    padding-bottom: 7px;
+    list-style-image: url("../img/list_img.png"); }
+
+/* line 82, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.info {
+  background: #fafafa;
+  text-align: center;
+  border-top: 1px #eeeeee solid; }
+  /* line 86, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  .info p {
+    font-family: Lato-Light, sans-serif;
+    font-size: 30px;
+    margin-bottom: 55px; }
+  /* line 90, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  .info a {
+    padding: 13px 23px;
+    font-size: 18px;
+    font-family: Lato-Bold, sans-serif; }
+
+/* line 95, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+.partners {
+  border-top: 1px #eeeeee solid;
+  border-bottom: 1px #eeeeee solid;
+  margin-top: 100px;
+  padding: 15px 0; }
+  /* line 100, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  .partners .border {
+    border-right: 1px #eeeeee solid; }
+    /* line 102, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+    .partners .border:last-child {
+      border-right: none; }
+
+/* line 105, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+footer {
+  background: #333333;
+  padding: 50px 0 70px 0; }
+  /* line 108, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff; }
+  /* line 113, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 12px; }
+    /* line 117, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+    footer ul li {
+      padding-bottom: 5px; }
+      /* line 119, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+      footer ul li a {
+        color: #7a7a7a; }
+  /* line 122, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer p, footer span {
+    font-family: Lato-Light, sans-serif;
+    font-size: 14px;
+    color: #eeeeee;
+    margin-bottom: 0; }
+  /* line 127, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer span {
+    font-size: 24px; }
+  /* line 129, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer .icons {
+    margin-top: 15px; }
+  /* line 133, C:/Users/Max/PhpstormProjects/portfolio_1/css/sass/main.sass */
+  footer .icons img, footer p, footer span {
+    margin-left: 18px; }

@@ -1,0 +1,134 @@
+@import "bourbon/bourbon"
+
+$b-radius: 3px
+
+.button
+  background: #ff941a
+  -webkit-border-radius: $b-radius
+  -moz-border-radius: $b-radius
+  border-radius: $b-radius
+
+body
+	font-family: "LatoRegular", sans-serif
+	font-weight: normal
+	font-size: 13px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	overflow-x: hidden
+	-webkit-font-smoothing: antialised
+a
+	color: #fff
+	&:hover
+		text-decoration: none
+		color: #dddddd
+	&:active
+		text-decoration: none
+		color: #eeeeee
+
+header
+  min-height: 500px !important
+  background-image: url("../img/header_bg.jpg")
+  background-repeat: no-repeat
+  background-position: top center
+  background-size: cover
+
+.top_line
+  margin-top: 10px
+
+nav
+  float: right
+  margin-top: 15px
+
+nav ul li
+  list-style: none
+  float: left
+  margin: 0 10px
+
+header p
+  text-align: center
+  font-family: LatoRegular, sans-serif
+  font-weight: bold
+  font-size: 30px
+  margin-top: 140px
+  text-shadow: 0 1px #000
+  color: #fff
+
+section
+  padding: 80px 0 100px 0
+
+.services
+	img
+	  padding-top: 35px
+	  float: right
+	a
+	  padding: 8px 15px
+	h2
+		color: #333333
+		margin: 0
+		font-weight: bold
+		font-size: 24px
+	p
+	  font-size: 14px
+	  font-family: LatoRegular, sans-serif
+	  color: #333333
+	  margin-bottom: 20px
+	ul
+	  padding-left: 17px
+	  li
+		  padding-bottom: 7px
+		  list-style-image: url("../img/list_img.png")
+
+.info
+	background: #fafafa
+	text-align: center
+	border-top: 1px #eeeeee solid
+	p
+		font-family: Lato-Light, sans-serif
+		font-size: 30px
+		margin-bottom: 55px
+	a
+		padding: 13px 23px
+		font-size: 18px
+		font-family: Lato-Bold, sans-serif
+
+.partners
+	border-top: 1px #eeeeee solid
+	border-bottom: 1px #eeeeee solid
+	margin-top: 100px
+	padding: 15px 0
+	.border
+		border-right: 1px #eeeeee solid
+		&:last-child
+			border-right: none
+
+footer
+	background: #333333
+	padding: 50px 0 70px 0
+	h3
+		text-transform: uppercase
+		font-size: 12px
+		font-weight: bold
+		color: #fff
+	ul
+		padding-left: 0
+		list-style: none
+		font-size: 12px
+		li
+			padding-bottom: 5px
+			a
+				color: #7a7a7a
+	p,
+	span
+		font-family: Lato-Light, sans-serif
+		font-size: 14px
+		color: #eeeeee
+		margin-bottom: 0
+	span
+		font-size: 24px
+	.icons
+		margin-top: 15px
+	.icons img,
+	p,
+	span
+		margin-left: 18px
